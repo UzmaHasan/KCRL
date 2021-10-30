@@ -32,8 +32,8 @@ class DataGenerator(object):
 
         if normalize_flag:
             self.inputdata = StandardScaler().fit_transform(self.inputdata)
-            _logger.info(print('In the NORMALIZE block \n'))
-            _logger.info(print('After normalizing \n', self.inputdata))
+           # _logger.info(print('In the NORMALIZE block \n'))
+           # _logger.info(print('After normalizing \n', self.inputdata))
 
         if solution_path is None:
             gtrue = np.zeros(self.d)
@@ -45,7 +45,7 @@ class DataGenerator(object):
 
         # (i,j)=1 => node i -> node j
         self.true_graph = np.int32(np.abs(gtrue) > 1e-3)
-        _logger.info(print('True DAG absolutes values \n', self.true_graph))
+       # _logger.info(print('True DAG absolutes values \n', self.true_graph))
 
     def gen_instance_graph(self, max_length, dimension, test_mode=False):
         seq = np.random.randint(self.datasize, size=(dimension))#dimension unclear
@@ -62,6 +62,6 @@ class DataGenerator(object):
             input_batch.append(input_)
 
         return input_batch
-        _logger.info(print('Random input batch for training procedure\n', input_batch))
+       # _logger.info(print('Random input batch for training procedure\n', input_batch))
     
     
