@@ -1,5 +1,5 @@
 # KCRL: Prior Knowledge Based Causal Discovery With Reinforcement Learning
-This is the public repository of the code implementation for KCRL by Uzma Hasan and Md Osman Gani. We provide a codebase so that readers can reproduce our experiments.
+This is the public repository of the code implementation for KCRL. We provide a codebase so that readers can reproduce our experiments.
 
 ## Requirements
 The code is tested with the following configuration:
