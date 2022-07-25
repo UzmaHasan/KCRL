@@ -1,4 +1,4 @@
-# KCRL: Prior Knowledge Based Causal Discovery With Reinforcement Learning
+# KCRL: A Prior Knowledge Based Causal Discovery Framework With Reinforcement Learning
 This is the public repository of code implementation for KCRL: A Prior Knowledge Based Causal Discovery Framework With Reinforcement Learning. 
 ## Requirements
 The code is tested with the following configuration:
